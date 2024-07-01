@@ -1,6 +1,8 @@
 
 # Esports-Data-to-Text
 
+![Image text](https://github.com/ArnoZWang/esports-data-to-text/blob/main/examples/preview.jpg)
+
 Scripts and related materials for [Commentary Generation from Data Records of Multiplayer Strategy Esports Game](https://arxiv.org/abs/2212.10935) ([Zihan Wang](https://www.tkl.iis.u-tokyo.ac.jp/~zwang/), Naoki Yoshinaga; NAACL-SRW 2024).
 
 
