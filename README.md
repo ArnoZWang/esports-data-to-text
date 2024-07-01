@@ -1,4 +1,5 @@
 
+
 # Esports-Data-to-Text
 
 ![Image text](https://github.com/ArnoZWang/esports-data-to-text/blob/main/examples/preview.jpg)
@@ -25,6 +26,26 @@ The statistics of our esports data-to-text datasets is as follow. The table also
 | Avg. length of output |       374.68 |              373.89 |               15.4 |              337.10 |          20.55 |
 
 To protect data copyright and privacy, we will only provide the scripts used for collecting and processing the data, rather than the well-processed data itself.
+
+## Example Input (Original)
+
+> … , {"type": "WARD_PLACED", "timestamp": 905433, "wardType": "YELLOWTRINKET", "creatorId": 6}, {"type": "WARD_KILL", "timestamp": 908742, "wardType": "YELLOWTRINKET", "killerId": 1}, {"type": "WARD_PLACED", "timestamp": 908775, "wardType": "CONTROLWARD", "creatorId": 5}, …
+
+## Example Input (Linearized)
+
+> … WARDPLACED|type 905433|timestamp YELLOWTRINKET|wardType 6|creatorId WARDKILL|type 908742|timestamp YELLOWTRINKET|wardType 1|killerId WARDPLACED|type 908775|timestamp CONTROLWARD|wardType 5|creatorId …
+
+## Example Output
+
+> (linebreaks omitted)
+> 
+> … just to stay even in a map state g2 can get exclusive vision on an area then suddenly the Nautilus veigar will have a lot of zone control but so behind in map control it's more about quick wards …
+
+## Example Output (ChatGPT Refinement)
+
+> (work in progress, for experimental use only, not included in this work)
+> 
+> … just to stay even in a map state. G2 can get exclusive vision on an area, then suddenly the Nautilus and Veigar will have a lot of zone control, but so behind in map control, it's more about quick wards …
 
 ## Related Resources
 
