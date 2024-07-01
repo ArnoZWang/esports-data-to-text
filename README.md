@@ -26,6 +26,8 @@ The statistics of our esports data-to-text datasets is as follow. The table also
 
 To protect data copyright and privacy, we will only provide the scripts used for collecting and processing the data, rather than the well-processed data itself.
 
+## Related Resources
+
 Further information can be found at [Riot Developer](https://developer.riotgames.com/) and [LoL Fandom Wiki](https://lol.fandom.com/wiki/2019_Season_World_Championship) (World Championship details and links to contest videos). It is also highly recommended to access the Discord Channel "[Riot Games Third Party Developer Community](https://discordbotlist.com/servers/riotgamesdevrel)", where there are experienced developers who are interested in dealing with LoL-related data (LoL, TFT, LoR, Val, etc.).
 
 
