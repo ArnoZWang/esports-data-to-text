@@ -64,7 +64,7 @@ Following the existing data-to-text tasks, we adopt the following metrics for au
  - [normalized Damerau-Levenshtein distance](https://github.com/life4/textdistance)
  - [ROUGE-L](https://github.com/pltrdy/rouge)
  - [BERTScore](https://pypi.org/project/bert-score)
- - [BARTScore](https://github.com/neulab/BARTScore)
+ - [BARTScore](https://github.com/neulab/BARTScore) ([example of usage](https://github.com/ArnoZWang/esports-data-to-text/blob/main/examples/bart-score-test.ipynb))
 
 > There are various implementations of these metrics; the links provided above are merely suggestions.
 
