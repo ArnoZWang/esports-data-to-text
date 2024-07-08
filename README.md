@@ -81,3 +81,18 @@ The criteria of human scoring is detailed in the following table.
 | Based on explaining the facts, the commentary also reflects several strategic considerations, such as the player’s intention and the team’s arrangement               |         3 |
 | The commentary only reflects the core event of the game moment described by the structured data, without providing any strategic consideration                        |         2 |
 | The commentary reflects no facts or only a few facts of the game moment described by the structured data                                                              |         1 |
+
+
+## Citation
+
+Big welcome to star this repo and cite our work using the following BibTeX:
+
+```bibtex
+@inproceedings{wang2024commentary,
+  title={Commentary Generation from Data Records of Multiplayer Strategy Esports Game},
+  author={Wang, Zihan and Yoshinaga, Naoki},
+  booktitle={Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)},
+  pages={263--271},
+  year={2024}
+}
+```
