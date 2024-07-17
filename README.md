@@ -29,23 +29,23 @@ To protect data copyright and privacy, we will only provide the scripts used for
 
 ## Example Input (Original)
 
-> … , {"type": "WARD_PLACED", "timestamp": 905433, "wardType": "YELLOWTRINKET", "creatorId": 6}, {"type": "WARD_KILL", "timestamp": 908742, "wardType": "YELLOWTRINKET", "killerId": 1}, {"type": "WARD_PLACED", "timestamp": 908775, "wardType": "CONTROLWARD", "creatorId": 5}, …
+> *… , {"type": "WARD_PLACED", "timestamp": 905433, "wardType": "YELLOWTRINKET", "creatorId": 6}, {"type": "WARD_KILL", "timestamp": 908742, "wardType": "YELLOWTRINKET", "killerId": 1}, {"type": "WARD_PLACED", "timestamp": 908775, "wardType": "CONTROLWARD", "creatorId": 5}, …*
 
 ## Example Input (Linearized)
 
-> … WARDPLACED|type 905433|timestamp YELLOWTRINKET|wardType 6|creatorId WARDKILL|type 908742|timestamp YELLOWTRINKET|wardType 1|killerId WARDPLACED|type 908775|timestamp CONTROLWARD|wardType 5|creatorId …
+> *… WARDPLACED|type 905433|timestamp YELLOWTRINKET|wardType 6|creatorId WARDKILL|type 908742|timestamp YELLOWTRINKET|wardType 1|killerId WARDPLACED|type 908775|timestamp CONTROLWARD|wardType 5|creatorId …*
 
 ## Example Output
 
 > (linebreaks omitted)
 > 
-> … just to stay even in a map state g2 can get exclusive vision on an area then suddenly the Nautilus veigar will have a lot of zone control but so behind in map control it's more about quick wards …
+> *… just to stay even in a map state g2 can get exclusive vision on an area then suddenly the Nautilus veigar will have a lot of zone control but so behind in map control it's more about quick wards …*
 
 ## Example Output (ChatGPT Refinement)
 
 > (work in progress, for experimental use only, not included in this work)
 > 
-> … just to stay even in a map state. G2 can get exclusive vision on an area, then suddenly the Nautilus and Veigar will have a lot of zone control, but so behind in map control, it's more about quick wards …
+> *… just to stay even in a map state. G2 can get exclusive vision on an area, then suddenly the Nautilus and Veigar will have a lot of zone control, but so behind in map control, it's more about quick wards …*
 
 ## Related Resources
 
@@ -64,7 +64,7 @@ Following the existing data-to-text tasks, we adopt the following metrics for au
  - [normalized Damerau-Levenshtein distance](https://github.com/life4/textdistance)
  - [ROUGE-L](https://github.com/pltrdy/rouge)
  - [BERTScore](https://pypi.org/project/bert-score)
- - [BARTScore](https://github.com/neulab/BARTScore)
+ - [BARTScore](https://github.com/neulab/BARTScore) ([example of usage](https://github.com/ArnoZWang/esports-data-to-text/blob/main/examples/bart-score-test.ipynb))
 
 > There are various implementations of these metrics; the links provided above are merely suggestions.
 
@@ -81,3 +81,18 @@ The criteria of human scoring is detailed in the following table.
 | Based on explaining the facts, the commentary also reflects several strategic considerations, such as the player’s intention and the team’s arrangement               |         3 |
 | The commentary only reflects the core event of the game moment described by the structured data, without providing any strategic consideration                        |         2 |
 | The commentary reflects no facts or only a few facts of the game moment described by the structured data                                                              |         1 |
+
+
+## Citation
+
+Big welcome to star this repo and cite our work using the following BibTeX:
+
+```bibtex
+@inproceedings{wang2024commentary,
+  title={Commentary Generation from Data Records of Multiplayer Strategy Esports Game},
+  author={Wang, Zihan and Yoshinaga, Naoki},
+  booktitle={Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)},
+  pages={263--271},
+  year={2024}
+}
+```
