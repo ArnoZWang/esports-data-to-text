@@ -25,7 +25,7 @@ The statistics of our esports data-to-text datasets is as follow. The table also
 | Avg. length of input  |       540.47 |              541.10 |        N/A (video) |              628.00 |          25.73 |
 | Avg. length of output |       374.68 |              373.89 |               15.4 |              337.10 |          20.55 |
 
-To protect data copyright and privacy, we will only provide the scripts used for collecting and processing the data, rather than the well-processed data itself.
+To protect data copyright and privacy, we will only provide the scripts used for collecting and processing the data, rather than the well-processed data itself. See this [example](https://github.com/ArnoZWang/esports-data-to-text/blob/main/examples/collect-data.ipynb).
 
 ## Example Input (Original)
 
