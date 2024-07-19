@@ -61,7 +61,7 @@ In this work, we use reference-based metrics for the other data-to-text tasks, a
 Following the existing data-to-text tasks, we adopt the following metrics for automatic evaluation.
 
  - [sacreBLEU](https://github.com/mjpost/sacreBLEU)
- - [normalized Damerau-Levenshtein distance](https://github.com/life4/textdistance)
+ - [normalized Damerau-Levenshtein distance](https://github.com/life4/textdistance) (text distance)
  - [ROUGE-L](https://github.com/pltrdy/rouge)
  - [BERTScore](https://pypi.org/project/bert-score)
  - [BARTScore](https://github.com/neulab/BARTScore) ([example of usage](https://github.com/ArnoZWang/esports-data-to-text/blob/main/examples/bart-score-test.ipynb))
